@@ -1,41 +1,70 @@
-#container {
-  display: flex;
-  flex-wrap: wrap;
+body  {
+    text-align: center;
+    background-color: black;
+    background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4012119.jpg");
+    background-repeat: repeat-x;
 }
 
-* {
-  box-sizing: border-box;
+img{
+    height: 300px;
 }
 
-body {
-  margin: 0;
+h2{
+    font-size: 60px;
+    margin-bottom:0px;
+}
+
+p{
+    font-size: 30px;
+    margin-top: 0px;
 }
 
 .header {
-  width: 100%; 
-  height: 100px;
-  background-color: aqua;
-  padding: 10px;
-  text-align: center;
+    font-family: 'Monoton', cursive;
+    font-size: 80px;
+    color: #edba2f;
 }
 
-.left {
-  width: 20%;
-  height: 800px;
-  background-color: pink;
+.bestMovieTitle {
+    font-family: 'Dancing Script', cursive;
+    color: pink;
+}
+    
+.bestMovie {
+    font-family: 'Dancing Script', cursive;
+    color: pink;
 }
 
-.main {
-  width: 80%;
-  padding: 50px;
-  color: white;
-  background-color: black;
+.bestMovieParent{
+    display:flex;
+    justify-content: center;
 }
 
-.link {
-  font-size: 12px;
+.bestArtistTitle{
+    font-family: 'Acme', cursive;
+    color: #99ef7a;
 }
 
-.footer {
-  width: 100%;
+.bestArtist{
+    font-family: 'Acme', cursive;
+    color: #99ef7a;
+}
+
+.bestArtistParent{
+    display:flex;
+    justify-content: center;
+}
+.bestGameTitle{
+    font-family: 'Bungee', cursive;
+    color: #5995f7;
+}
+
+.bestGame{
+    font-family: 'Bungee', cursive;
+    color: #5995f7;
+}
+
+.bestGameParent{
+    display:flex;
+    justify-content: center;
 }
